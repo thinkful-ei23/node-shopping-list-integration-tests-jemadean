@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: zHfv3nDb0WaGnCV0cl+sKZbmPFjYvtULZOsoMJ6C8djbh1d3Jbc23uPocb0J860kCcdLkmLTD4NrD5KxYjKomowaqHgydQLmBgxPZHTgsmse0T3y77BgsXG1QTRRIkfEEYuIiWmP67kFv02HmP2uZF7POeNoJlTpdz40SULVGfsydMnfpxu86Rhz9EYFJeEvGD8+3gWUZKTTdb7m8JRDFerSFzaEbETg0iedykckd3yX1jo1yjVtYUn9xMP8IchBmzop0yaT3hoceGaZE91s/ZbLToP06dyZi0zroy69hRBPnRJhVks333vBOfws/dVrOsi6nSBmPf5COGOoX++RwAQrArvc3RSLGvdvy7LUcBvA5uc3EfmsvrHl8XB03wepY6zkaOlVpQWR/sk+x0yz2UFMK4lmRIRYbYC67NYknrm/40g+T7ADN/xMOOvCWRMRWXQS1gG1L4eOkEYw6xPRU8Ayz85uQOa3TXh7E7yv/18igRN/hpASL6gQB+r4OTPn/neHcEzcpZiciL7iNPGFyHadu1SxVMXHRM4Xy5is4nR6JXdET+UOHwoqLPvPPPEFRQq5eC+Uv6I4xOtwlLMulEBMEEVUctgVv54n4tgS28Mupo2NwLubVrBL52KLT5tJ98UPnbeDdzDKZKp+131B+yoIKEm9xbHnc81nT17Wj28=
+  app: node-shopping-list-integration-tests-jemadean
+  on:
+    repo: thinkful-ei23/node-shopping-list-integration-tests-jemadean
